@@ -54,7 +54,7 @@ speed_text = "ปกติ" if speed_level == 0 else f"{'เร็ว' if speed_
 st.info(f"📢 กำลังจะอ่านด้วยเสียง: {selected_voice_label} | ความเร็ว: {speed_text}")
 
 # --- ส่วนรับข้อมูล ---
-text_input = st.text_area("✍️ วางข้อความภาษาไทย และใช้ "," คั่น เพื่อเว้นวรรคคำอ่าน", height=400, placeholder="ใส่ข้อความที่ต้องการให้อ่านที่นี่...")
+text_input = st.text_area("✍️ วางข้อความภาษาไทย และใช้คอมมาร์คั่นเพื่อเว้นวรรคคำอ่าน", height=400, placeholder="ใส่ข้อความที่ต้องการให้อ่านที่นี่...")
 
 # --- ปุ่มดำเนินการ ---
 col_run, col_clr = st.columns(2)
